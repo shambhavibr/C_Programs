@@ -17,10 +17,10 @@ main()
 void input(int *x,int *y)
 {
   printf("Enter first number");
-  scanf("%d",&x);
+  scanf("%d",x);
   
   printf("Enter second number");
-  scanf("%d",&y);
+  scanf("%d",y);
 }
 
 int compute(int x, int y)
