@@ -1,7 +1,7 @@
 #include <stdio.h>
-void input(int *, int *)
-int compute(int, int*)
-void output(int)
+void input(int *, int *);
+int compute(int, int*);
+void output(int);
   
 main()
 {
@@ -19,7 +19,7 @@ void input(int *n, int *a)
   scanf("%d",n);
   printf("Enter the elements");
          
-  for(i=0;i<n;i++)
+  for(i=0;i<*n;i++)
   {
      scanf("%d",&a[i]);
   }
